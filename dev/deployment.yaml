@@ -17,9 +17,6 @@ spec:
         image: gcr.io/spark-lab-177902/builds/api-server@sha256:bd15d8e70606d5ac4d7936d92ada1b561f95072cb78a46aae21289dbc65ef41c
         ports:
         - containerPort: 8080
-      volumes:
-      - name: secrets
-        secret:
-          secretName: creds
-          defaultMode: 0777
+      imagePullSecrets:
+      - name: gcr-creds
 
