@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: repository.rubrik.com/rkdocker/sd_dev:e1b71f3aa731cc30097985820dab99c46b64cfce
+        image: nanajanashia/argocd-app:1.2
         ports:
         - containerPort: 8080
