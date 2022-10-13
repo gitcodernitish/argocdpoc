@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: hackathon-demo
+  name: hackathon-demo-test
   namespace: argocd
 spec:
   project: default
