@@ -15,9 +15,6 @@ spec:
       containers:
       - name: myapp
         image: nanajanashia/argocd-app:1.1
-        command:
-          - /bin/sh
-          - echo "this is nitish"
         ports:
         - containerPort: 8080
       imagePullSecrets:
