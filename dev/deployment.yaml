@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: myapp
-        image: repository.rubrik.com/rkdocker/sd_dev:f3b49cf50bb96783cf7c5fce348cbd34057843da
+        image: 'repository.rubrik.com/rkdocker/sd_dev:f3b49cf50bb96783cf7c5fce348cbd34057843da'
         command:
           - /bin/sh
           - echo "this is nitish"
